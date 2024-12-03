@@ -63,7 +63,7 @@
     "malilib.gui.label_colored.on": "§a开§r",
     "malilib.gui.label.color_editor.current_color": "当前颜色:",
     "malilib.gui.label.keybind_settings.activate_on": "触发时间",
-    "malilib.gui.label.keybind_settings.allow_empty_keybind": "不允许空的按键绑定",
+    "malilib.gui.label.keybind_settings.allow_empty_keybind": "允许空的按键绑定",
     "malilib.gui.label.keybind_settings.allow_extra_keys": "允许按键共享",
     "malilib.gui.label.keybind_settings.cancel_further": "取消按键的进一步处理",
     "malilib.gui.label.keybind_settings.context": "触发范围",
