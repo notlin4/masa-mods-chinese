@@ -102,7 +102,7 @@
   "malilib.gui.label.keybind_settings.context": "觸發範圍",
   "malilib.gui.label.keybind_settings.exclusive": "獨占按鍵",
   "malilib.gui.label.keybind_settings.order_sensitive": "固定順序啟動",
-  "malilib.gui.label.keybind_settings.tips": "- 左鍵進入設定\n- 右鍵恢復預設",
+  "malilib.gui.label.keybind_settings.tips": "- 左鍵進入設定\n- 右鍵復原預設",
   "malilib.gui.label.keybind_settings.title_advanced_keybind_settings": "高級按鍵設定",
   "malilib.gui.label.layer_mode.all": "全部",
   "malilib.gui.label.layer_mode.all_above": "此層之上",
