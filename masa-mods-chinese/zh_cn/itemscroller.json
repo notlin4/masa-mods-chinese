@@ -121,7 +121,7 @@
     "itemscroller.config.hotkeys.name.sortInventory": "SortInventory | 物品栏整理",
     "itemscroller.config.hotkeys.comment.openConfigGui": "打开游戏内配置界面",
     "itemscroller.config.hotkeys.comment.craftEverything": "使用当前选定的配方尽可能一次性合成所有可合成的物品",
-    "itemscroller.config.hotkeys.comment.dropAllMatching": "丢弃所有与鼠标指针指向的物品向匹配的物品",
+    "itemscroller.config.hotkeys.comment.dropAllMatching": "丢弃所有与鼠标指针指向的物品相匹配的物品",
     "itemscroller.config.hotkeys.comment.massCraft": "按住快捷键，可以批量合成当前选择的配方并将产物丢出",
     "itemscroller.config.hotkeys.comment.massCraftToggle": "使用了 Andrew54757 的「Craft-Fix」分支所开发的「Mass Craft Toggle」功能，但在这里重新实现\n§6注意：这与 [连点限制] 功能不兼容§r \n\n译注：开启后可以一直批量合成，这个是此功能的快捷键",
     "itemscroller.config.hotkeys.comment.moveCraftResults": "将与当前选定配方的合成结果相匹配的物品从玩家背包移动到容器中",
