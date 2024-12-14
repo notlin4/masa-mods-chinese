@@ -922,5 +922,6 @@
     "litematica.tool_mode.name.paste_schematic": "在世界上貼上原理圖",
     "litematica.tool_mode.name.rebuild": "重建原理",
     "litematica.tool_mode.name.replace_block": "取代方塊",
-    "litematica.tool_mode.name.schematic_placement": "原理圖放置"
+    "litematica.tool_mode.name.schematic_placement": "原理圖放置",
+    "modmenu.descriptionTranslation.litematica": "LiteLoader, Rift, Fabric 等平台上的原理圖模組"
 }
