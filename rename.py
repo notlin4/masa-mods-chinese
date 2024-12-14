@@ -16,7 +16,3 @@ tag = get_git_tags()[0]
 if os.path.exists('./masa-mods-chinese.zip'):
     file_path = './masa-mods-chinese.zip'
     shutil.move(file_path, './[1.21]MASA全家桶汉化包' + '-' + tag + '.zip')
-
-if os.path.exists('./masa-mods-chinese-neo.zip'):
-    file_path = './masa-mods-chinese-neo.zip'
-    shutil.move(file_path, './[1.21]MASA全家桶汉化包-neo' + '-' + tag + '.zip')

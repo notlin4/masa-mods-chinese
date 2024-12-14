@@ -7,7 +7,7 @@ import zipfile
 
 version: Optional[str] = None
 
-def create_resource_pack(version):
+def create_resource_pack():
     file_list = [
         'itemscroller.json',
         'litematica.json',
@@ -17,16 +17,11 @@ def create_resource_pack(version):
         'tweakeroo.json',
         'litematica-printer.json',
     ]
-    def write_file(language, version):
+    def write_file(language):
         in_file = os.path.join('masa-mods-chinese', language, file)
         out_file = os.path.join('assets', file.split('.')[0], 'lang', language + '.json')
-
         with open(in_file, 'r', encoding='utf-8') as f:
             in_file = json.load(f)
-            if version == 'neo':
-                for key in in_file:
-                    if " | " in in_file[key]:
-                        in_file[key] = in_file[key].split(" | ")[1]
         output_dir = os.path.dirname(out_file)
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
@@ -35,8 +30,8 @@ def create_resource_pack(version):
         output_file.close()
 
     for file in file_list:
-        write_file('zh_cn', version)
-        write_file('zh_tw', version)
+        write_file('zh_cn')
+        write_file('zh_tw')
         
         
 
@@ -55,14 +50,14 @@ def rename_mcmeta():
     with open('pack.mcmeta', 'r', encoding='utf-8-sig') as f:
         data = json.load(f)
 
-    data['pack']['pack_format'] = 42
-    data['pack']['supported_formats'] = [ 34, 42 ]
+    data['pack']['pack_format'] = 46
+    data['pack']['supported_formats'] = [ 34, 46 ]
     data['pack']['description'] = '§e[1.21]MASA全家桶汉化包' + '-' + tag[0]
 
     with open('pack.mcmeta', 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-def zip_files(version: str):
+def zip_files():
     def zip_files_and_folders(zip_filename, items_to_zip):
         with zipfile.ZipFile(zip_filename, 'w', zipfile.ZIP_DEFLATED) as zipf:
             for item in items_to_zip:
@@ -79,30 +74,17 @@ def zip_files(version: str):
         'pack.mcmeta',
         'pack.png',
     ]
-    if version == 'neo':
-        zip_filename = './masa-mods-chinese-neo.zip'
-    else:
-        zip_filename = './masa-mods-chinese.zip'
+    zip_filename = './masa-mods-chinese.zip'
     zip_files_and_folders(zip_filename, items_to_zip)
 
 def delete_files():
     shutil.rmtree('./assets')
 
-def parse_args():
-    import argparse
-    parser = argparse.ArgumentParser(description='Generate the MASA mods Chinese translation pack.')
-    parser.add_argument('-v', '--version',
-                        choices=['classic', 'neo'],
-                        type=str,
-                        required=False,
-                        default='classic',
-                        help='The version of the translation pack.')
-    return parser.parse_args()
 
-version = parse_args().version
-create_resource_pack(version)
+
+create_resource_pack()
 rename_mcmeta()
-zip_files(version)
+zip_files()
 delete_files()
 print('Done!')
 
