@@ -19,26 +19,18 @@
 
 由於醉夢巔峰不再進行 `Masa Mods` 1.21 版本之後的漢化，本人進行了原本漢化的重構，以適應 1.21 [Sakura Ryoko](https://github.com/sakura-ryoko) 版本的 `Masa Mods`
 
-如果您想查看醉夢巔峰 1.20.1 版本的漢化，請點擊 [這裡](https://github.com/DreamingLri/masa-mods-chinese/tree/1.20)
+如果您使用的是 1.20.x 及 1.19.x 版本的 `Masa Mods`，可以下載 [1.20](https://github.com/DreamingLri/masa-mods-chinese/releases/tag/1.20-v1.0.1) 版本的漢化
+
+如果您想查看醉夢巔峰 1.20.1 版本的漢化源文件，請點擊 [這裡](https://github.com/DreamingLri/masa-mods-chinese/tree/1.20)
+
+## 如何使用
 
 > [!WARNING]  
 > 本漢化包只適應了 1.21 [Sakura Ryoko](https://github.com/sakura-ryoko) **最新版本**的 `Masa Mods`，低於 1.21 版本的 `Masa Mods` 使用此漢化包會出現翻譯缺失甚至衝突！！！
 > 
-> 有漢化錯誤多半是因為您沒有更新模組和漢化包到最新版(
-
-## 如何使用
+> 有漢化錯誤多半是因為您沒有更新模組和漢化包到最新版
 
 從 [Release](https://github.com/DreamingLri/masa-mods-chinese/releases) 下載最新版本漢化包，之後將漢化包放入 `resourcepacks` 資料夾中即可使用，記得在資源包裡面啟用這個(
-
-> [!NOTE]
-> `masa-mod-chinese.zip` 是含有中英文對照的翻譯格式
->
-> ![image](https://github.com/user-attachments/assets/9272e9a0-723b-431b-aeaa-c80a2a372cca)
->
-> `masa-mod-chinese-neo.zip` 是只含有中文的翻譯格式，非常適合搭配 [tweakermore](https://github.com/Fallen-Breath/tweakermore) 模組的 `applyTweakerMoreOptionLabelGlobally` 功能使用
->
-> ![image](https://github.com/user-attachments/assets/892cd08e-90ce-47a4-8a84-b0f0001cd99d)
-
 
 如果您想體驗**最新**~~最不穩定~~的漢化更新：
 
@@ -59,5 +51,7 @@
 感謝 [醉夢巔峰](mailto:893136473@qq.com) 和 [新兵Sinbing](https://github.com/Sinbing) 對 Masa Mods 漢化的貢獻
 
 感謝 [雪鈴 SnowLin](https://github.com/snowlinouo) 對繁體中文漢化的貢獻，歡迎各位來下載TA的 [漢化資源包](https://modrinth.com/resourcepack/masa-mod-translationpack)
+
+感謝 [Liyan Zhao](https://github.com/zly2006) 對漢化提出的修改建議
 
 如果您發現任何漢化錯誤，歡迎提交 [Issue](https://github.com/DreamingLri/masa-mods-chinese/issues/new)
