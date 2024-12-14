@@ -54,4 +54,4 @@
 
 感谢 [Liyan Zhao](https://github.com/zly2006) 对汉化提出的修改建议
 
-如果您发现任何汉化错误，欢迎提交 [Issue](https://github.com/DreamingLri/masa-mods-chinese/issues/new)
+如果您想提供汉化错误或建议，欢迎提交 [Issue](https://github.com/DreamingLri/masa-mods-chinese/issues/new/choose)
