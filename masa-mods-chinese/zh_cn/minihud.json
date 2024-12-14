@@ -779,7 +779,7 @@
   "minihud.info_line.entities_client_world.server": "实体数量 - 客户端: %d - 服务端: %d",
   "minihud.info_line.entity_reg_name": "实体注册名: %s",
   "minihud.info_line.entity_variant.axolotl": "美西螈: 颜色 §b%s§r",
-  "minihud.info_line.entity_variant.cat": "猫：皮肤 §b%s§r (%s 项圈)",
+  "minihud.info_line.entity_variant.cat": "猫: 皮肤 §b%s§r (%s 项圈)",
   "minihud.info_line.entity_variant.frog": "青蛙: 肤色 §b%s§r",
   "minihud.info_line.entity_variant.horse": "马: 类型 §b%s§r / 花纹 §d%s§r",
   "minihud.info_line.entity_variant.llama": "羊驼: 类型 §b%s§r, 强度 §d§l%d§r",
