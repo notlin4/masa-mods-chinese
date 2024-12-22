@@ -161,7 +161,7 @@
     "tweakeroo.config.generic.comment.shulkerDisplayEnderChest": "如果该选项启用，当你按住 Shift 同时指向末影箱时，\n将显示末影箱内的物品\n\n译注：需要先启用 §6[潜影盒预览]§r",
     "tweakeroo.config.generic.comment.shulkerDisplayRequireShift": "潜影盒预览是否需要按住 Shift 键",
     "tweakeroo.config.generic.comment.slotSyncWorkaround": "开启此项可以防止服务器在快速使用物品时（例如使用 §6[右键快速点击]§r）覆盖物品的耐久度或堆叠大小",
-    "tweakeroo.config.generic.comment.slotSyncWorkaroundAlways": "启用后，会在按住右键时始终启用[同步物品栏]，\n而不仅仅是使用 §6[方块快速放置]§r 或 §6[右键快速点击]§r 时。\n这主要是为其他可能在按住右键时快速放置物品的模组设计，\n比如 §e[Litematica 模组]§r 的 §6[轻松放置功能]§r",
+    "tweakeroo.config.generic.comment.slotSyncWorkaroundAlways": "启用后，会在按住右键时始终启用 [同步物品栏]，\n而不仅仅是使用 §6[方块快速放置]§r 或 §6[右键快速点击]§r 时。\n这主要是为其他可能在按住右键时快速放置物品的模组设计，\n比如 §e[Litematica 模组]§r 的 §6[轻松放置功能]§r",
     "tweakeroo.config.generic.comment.snapAimIndicator": "是否显示瞄准辅助指示器",
     "tweakeroo.config.generic.comment.snapAimIndicatorColor": "§6[瞄准辅助指示器]§r 的背景颜色",
     "tweakeroo.config.generic.comment.snapAimMode": "切换瞄准辅助模式：偏航角[← →]或俯仰角[↑ ↓]，或都显示",
