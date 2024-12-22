@@ -204,7 +204,7 @@
   "malilib.message.error.failed_to_parse_string_as_json": "无法将字符串转为 JSON ",
   "malilib.message.error.failed_to_rename_file.exception": "无法将文件§e「%s」§r重命名为§e「%s」§r，\n异常信息：%s\n",
   "malilib.message.error.failed_to_rename_file.exists": "无法重命名文件§e「%s」§r为§e「%s」§r，\n目标文件已存在",
-  "malilib.message.error.failed_to_resolve_file": "将数据保存到该文件时未能解析文件实际位置§e「%s」§r\n可能是一个损坏的地址链接，或者权限不足",
+  "malilib.message.error.failed_to_resolve_file": "将数据保存到该文件时未能解析文件实际位置§e「%s」§r\n可能是一个损坏的符号链接，或者权限不足",
   "malilib.message.error.failed_to_save_all_configs": "有些配置选项未能正确保存",
   "malilib.message.error.failed_to_write_data_to_file": "无法将数据写入文件§e「%s」§r",
   "malilib.message.error.failed_to_write_json_to_file": "无法将 JSON 数据写入文件§e「%s」§r\n异常信息：%s",
